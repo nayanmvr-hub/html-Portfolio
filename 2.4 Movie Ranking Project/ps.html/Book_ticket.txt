@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title><!-- TODO: Add title here --></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top of the page -->
+  <div id="top"></div>
+
+  <!-- TODO: Add main heading here -->
+  <!-- TODO: Add introduction paragraph here -->
+
+  <!-- Navigation Menu -->
+  <nav>
+    <!-- TODO: Add 3 links: Home, Book Ticket, Contact -->
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <!-- TODO: Add heading "Home" -->
+    <!-- TODO: Add image with alt text -->
+    <!-- TODO: Add Back to Top link -->
+  </section>
+
+index.html
+----------  
+<!-- Book Ticket Section -->
+  <section id="book">
+    <!-- TODO: Add heading "Book Your Ticket" -->
+    <form>
+      <!-- TODO: Add From (text input) -->
+      <!-- TODO: Add To (text input) -->
+      <!-- TODO: Add Date of Journey (date input) -->
+      <!-- TODO: Add Ticket Type (radio: Bus, Train, Flight) -->
+      <!-- TODO: Add Submit button -->
+    </form>
+    <!-- TODO: Add Back to Top link -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <!-- TODO: Add heading "Contact Us" -->
+    <form>
+      <!-- TODO: Add Name (text input) -->
+      <!-- TODO: Add Email (email input) -->
+      <!-- TODO: Add Message (textarea) -->
+      <!-- TODO: Add Submit button -->
+    </form>
+    <!-- TODO: Add Back to Top link -->
+  </section>
+</body>
+</html>
+
+=============
+
+style.css
+---------
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f8fc;
+}
+
+h1 {
+  text-align: center;
+  color: #005f99;
+}
+
+nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #005f99;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff6600;
+}
+
+section {
+  margin: 40px 0;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #005f99;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ff6600;
+}
+
+/* Back to top link styling */
+section p a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #005f99;
+  font-weight: bold;
+}
+
+section p a:hover {
+  color: #ff6600;
+}
+
+p{
+ text-align: center;   
+}
+
+form button[type="submit"] {
+  background-color: #007bff;   /* normal blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0056b3;   /* darker blue on hover */
+}
